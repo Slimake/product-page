@@ -60,6 +60,8 @@ body {
 	width: 350px;
 	padding: 15px 30px;
 	border-radius: 8px;
+	font-size: 13px;
+	font-weigth: 600px;
 }
 
 .stars span {
