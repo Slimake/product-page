@@ -1,0 +1,253 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-shadow: border-box;
+}
+
+body {
+	font-size: 0.94rem;
+	font-family: 'Spartan', sans-serif;
+	line-height: 1.5;
+}
+
+.container {
+	margin: 0 auto;
+	width: 80%;
+	padding: 80px 0;
+}
+
+.top-row {
+	position: relative;
+	margin-bottom: 60px;
+}
+
+.product h1 {
+	color: hsl(300, 43%, 22%);
+	font-size: 2.5rem;
+	font-weight: 900;
+	line-height: 1;
+}
+
+.product p {
+	color: hsl(300, 43%, 22%);
+	width: 45%;
+	line-height: 1.5;
+	margin: 10px 0;
+}
+
+.reviews-ratings {
+	position: absolute;
+	top: 0px;
+	right: 80px;
+}
+
+.report-guru-ratings {
+	position: absolute;
+	top: 65px;
+	right: 40px;
+}
+
+.best-tech {
+	position: absolute;
+	top: 130px;
+	right: 0;
+}
+
+.stars {
+	background-color: hsl(300, 24%, 96%);
+	color: hsl(300, 43%, 22%);
+	display: inline-block;
+	width: 350px;
+	padding: 15px 30px;
+	border-radius: 8px;
+}
+
+.stars span {
+	margin-left: 20px;
+}
+
+.testimonial {
+	width: 100%;
+	position: relative;
+}
+
+.verified-buyer-row {
+	width: 26.5%;
+	background-color: hsl(300, 43%, 22%);
+	border-radius: 8px;
+	padding: 40px 30px;
+}
+
+.verified-buyer-row p {
+	color: hsl(300, 24%, 96%);
+	font-size: 0.81rem;
+}
+
+.one {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.two {
+	position: absolute;
+	top: 20px;
+	left: 370px;
+}
+
+.three {
+	position: absolute;
+	top: 40px;
+	left: 740px;
+}
+
+.profile-info {
+	display: inline-block;
+	float: left;
+	margin-left: 20px;
+	padding-top: 3px;
+}
+
+.profile-info h3 {
+	color: hsl(300, 24%, 96%);
+	font-size: 13px;
+}
+
+.profile-info p {
+	color: hsl(333, 80%, 67%);
+}
+
+.profile-header {
+	width: 250px;
+	height: 60px;
+}
+
+.profile-header img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.verified-buyer-row p {
+	clear: left;
+}
+
+@media only screen and (max-width: 1200px) {
+	body {
+		text-align: center;
+	}
+
+	.container {
+		padding-top: 70px;
+		width: 90%;
+	}
+	
+	.top-row {
+		margin-bottom: 30px;
+	}
+
+	.product h1 {
+		font-size: 2rem;
+	}
+
+	.product p {
+		color: hsl(300, 43%, 22%);
+		width: 100%;
+		line-height: 1.5;
+		margin: 20px auto 30px;
+	}
+
+	.stars {
+		background-color: hsl(300, 24%, 96%);
+		color: hsl(300, 43%, 22%);
+		display: block;
+		width: 90%;
+		padding: 15px 5%;
+		border-radius: 8px;
+		margin-bottom: 10px;
+	}
+	.reviews-ratings {
+		position: static;
+	}
+
+	.report-guru-ratings {
+		position: static;
+	}
+
+	.best-tech {
+		position: static;
+	}
+
+	.stars span {
+		margin-left: 0;
+	}
+
+	.block {
+		display: block;
+	}
+
+	.testimonial {
+		width: 90%;
+		position: static;
+	}
+
+	.verified-buyer-row {
+		width: 80%;
+		background-color: hsl(300, 43%, 22%);
+		border-radius: 8px;
+		padding: 40px 5.5%;
+		text-align: left;
+	}
+
+	.one {
+		width: 100%;
+		position: static;
+	}
+
+	.two {
+		width: 100%;
+		position: static;
+		margin: 15px 0;
+	}
+
+	.three {
+		width: 100%;
+		position: static;
+	}
+}
+
+/*@media only screen and (min-width: 1040px) and (max-width: 1150px) {
+
+	.testimonial {
+		width: 67%;
+		position: relative;
+	}
+
+	.verified-buyer-row {
+		width: 37%;
+		background-color: hsl(300, 43%, 22%);
+		border-radius: 8px;
+		padding: 40px 30px;
+		text-align: left;
+	}
+
+	.one {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	.two {
+		position: absolute;
+		top: 20px;
+		left: 280px;
+	}
+
+	.three {
+		position: absolute;
+		top: 40px;
+		left: 560px;
+	}
+}*/
